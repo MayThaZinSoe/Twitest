@@ -1,0 +1,282 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+#wrapper.img{
+  margin-top: auto;
+}
+img{
+  margin-top:auto;
+}
+*{list-style:none;
+  margin:0px;
+  padding:0px;
+}
+
+
+body{
+
+    text-align:center;
+     width: 980px;
+
+     height:100%;
+     margin: auto;
+     padding: auto;
+     background: #EBD699;
+}
+#wrapper{
+
+height: 100%;
+        boder:1px solid ;
+        overflow:auto;
+        margin:0px;
+        padding:0px;
+        background-color: #F3FFED;
+
+}
+#tbl{
+
+       text-align:center;
+       width: 100%;
+       height: 100%;
+       margin-top: 50px;
+
+    }
+
+#tbl,tr,td{
+       border:1px soild #FFD1A3;
+       text-align:left;
+
+       border-collapse: collapse;
+
+       }
+
+ td.example{
+	      width:100%;
+        margin-left:5px;
+        margin-right:5px;
+      padding: 2px;
+       word-break: break-all;
+
+
+}
+td.tdid{
+  text-align: center;
+}
+th.th{
+  text-align: center;
+  background-color: #FFD1A3;
+padding: 20px;
+font-weight: bold;
+}
+a{
+  float: left;
+  margin: auto;
+  text-decoration: none;
+  color: #333300;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+  box-shadow: 0 4px 0 #e91b0c;
+  background: #FFA375;
+  border: 1px solid;
+  width: 70px;
+  text-align: center;
+
+}
+h2{
+  color: #FF6666;
+  margin-top: 20px;
+}
+textarea{
+  margin-top:5px;
+  border: 1px solid #765942;
+  border-style:dotted;
+	border-radius: 4px;
+	height: 100px;
+	width: 900px;
+  color: #FF6600;
+
+
+
+}
+
+#btn{
+  margin-top: 2px;
+  width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 #e91b0c;
+    background: #f44336;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+
+  }
+  #btn:hover{
+    opacity: 0.8;
+  }
+  #si{
+    margin-left: 200px;
+    margin-top: 50px;
+    float: left;
+  }
+  #lo{
+    float: right;
+    margin-right: 200px;
+    margin-top: 55px;
+  }
+  h1{
+    color: #FF6262;
+  }
+  #na{
+    border: 2px solid #765942;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 2px;
+    margin-left: 40px;
+    float: right;
+
+  }
+  #na1{
+    border: 2px solid #765942;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 2px;
+margin-left: 40px;
+  float: right;
+  }
+  #pw{
+    border: 2px solid #765942;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 2px;
+    margin-left: 40px;
+
+  }
+  #pw1{
+    border: 2px solid #765942;
+    border-radius: 5px;
+      margin-bottom: 2px;
+    padding: 2px;
+margin-left: 40px;
+  float: right;
+  }
+  p{
+float: left;
+  }
+  input {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+}
+
+.site__container {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 3rem 0;
+}
+
+.form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+  width: 100%;
+}
+.form--login {
+  color: #606468;
+}
+.form--login label,
+.form--login input[type="text"],
+.form--login input[type="password"],
+.form--login input[type="submit"] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+.form--login label {
+  background-color: #363b41;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.form--login input[type="text"], .form--login input[type="password"] {
+  background-color: #3b4148;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  color:#FFFFFF;
+}
+.form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover {
+  background-color: #434A52;
+}
+.form--login input[type="submit"] {
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form--login input[type="submit"]:focus, .form--login input[type="submit"]:hover {
+  background-color: #d44179;
+}
+.form__field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.form__input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.align {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.text--center {
+  text-align: center;
+
+}
+
+.grid__container {
+  margin: 0 auto;
+  max-width: 20rem;
+  width: 90%;
+}
+h6{
+  margin-left: 450px;
+  height: 7px;
+
+}
